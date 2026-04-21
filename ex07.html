@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>표 만들기 연습</title>
+  </head>
+  <body>
+    <!-- 표 만들기 복습 -->
+    <table border="1">
+      <!-- 표의 제목 -->
+      <caption>
+        표 만들기 복습
+      </caption>
+
+      <!-- 표의 제목 부분 -->
+      <thead>
+        <!-- 1행 삽입 -->
+        <tr>
+          <!-- 4셀 삽입 -->
+          <!-- th -> 다른 셀에 비해서 글씨가 굵게 표시 -->
+          <th>제목 셀1</th>
+          <th>제목 셀2</th>
+          <th>제목 셀3</th>
+          <th>제목 셀4</th>
+        </tr>
+      </thead>
+
+      <!-- 표의 본문 -->
+      <tbody>
+        <!-- 2행 삽입 -->
+        <tr>
+          <td>일반셀 2행 1열</td>
+          <td>일반셀 2행 2열</td>
+          <td>일반셀 2행 3열</td>
+          <td>일반셀 2행 4열</td>
+        </tr>
+      </tbody>
+
+      <!-- 표의 요약 -->
+      <tfoot>
+        <tr>
+          <td>합계</td>
+          <td>1000</td>
+          <td>2000</td>
+          <td>3000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br /><br /><br /><br /><br />
+
+    <!-- 셀 병합 연습 -->
+    <table border="1">
+      <tr>
+        <th colspan="2">지역별 홍차</th>
+        <!-- colspan으로 열을 합침 -->
+        <!-- <th>지역별 홍차</th> -->
+      </tr>
+      <tr>
+        <th rowspan="3">중국</th>
+        <th>정산소종</th>
+      </tr>
+      <tr>
+        <!-- rowspan으로 행을 합침 -->
+        <!-- <th>중국</th> -->
+        <td>기문</td>
+      </tr>
+      <tr>
+        <!-- rowspan으로 행을 합침 -->
+        <!-- <th>중국</th> -->
+        <td>운남</td>
+      </tr>
+
+      <tr>
+        <th rowspan="4">인도 및 스리랑카</th>
+        <td>아삼</td>
+      </tr>
+      <tr>
+        <td>실론</td>
+      </tr>
+      <tr>
+        <td>다질링</td>
+      </tr>
+      <tr>
+        <td>닐기리</td>
+      </tr>
+    </table>
+    <br /><br /><br /><br /><br />
+    <!-- 92페이지 14번 표를 생성하시오 -->
+    <!-- 10행 6열 -->
+    <table border="1">
+      <tr>
+        <th colspan="6">한국의 차</th>
+      </tr>
+      <tr>
+        <th rowspan="6">뿌리차</th>
+        <td>인삼차</td>
+
+        <th rowspan="10">과일차</th>
+        <td>수정과</td>
+
+        <th rowspan="5">잎차</th>
+        <td>뽕잎차</td>
+      </tr>
+      <tr>
+        <td>당귀차</td>
+        <td>유자차</td>
+        <td>감잎차</td>
+      </tr>
+      <tr>
+        <td>생강차</td>
+        <td>구기자차</td>
+        <td>솔잎차</td>
+      </tr>
+      <tr>
+        <td>칡차</td>
+        <td>대추차</td>
+        <td>국화차</td>
+      </tr>
+      <tr>
+        <td>둥글레차</td>
+        <td>오미자차</td>
+        <td>이슬차</td>
+      </tr>
+      <tr>
+        <td>마차</td>
+        <td>매실차</td>
+
+        <th rowspan="4">기타</th>
+        <td>두충차</td>
+      </tr>
+      <tr>
+        <th rowspan="3">곡물차</th>
+        <td>보리차</td>
+        <td>모과차</td>
+        <td>영지버섯차</td>
+      </tr>
+      <tr>
+        <td>옥수수차</td>
+        <td>산수유차</td>
+        <td>귤강차</td>
+      </tr>
+      <tr>
+        <td>현미차</td>
+        <td>탱자차</td>
+        <td>쌍화차</td>
+      </tr>
+    </table>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+</html>

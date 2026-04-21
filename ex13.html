@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나머지 입력양식 태그</title>
+  </head>
+  <body>
+    <h1>나머지 입력 양식 태그</h1>
+    <form action="">
+      <fieldset>
+        <legend>선택양식 태그</legend>
+        <!-- 출력되는 항목의 개수 조절 size -->
+        <!-- multiple : 여러 항목 선택 -->
+        <select name="" id="" multiple size="2">
+          <option value="p_1">김밥</option>
+          <option value="p_2">떡볶이</option>
+          <!-- 기본 선택 : selected 사용, value : 서버에 보내줄 값 -->
+          <option value="p_3" selected>순대</option>
+          <option value="p_4">어묵</option>
+        </select>
+        <br /><br /><br />
+
+        <!-- 그룹으로 묶어서 쓸때 사용 -->
+        <select name="" id="">
+          <optgroup label="분식">
+            <option value="">김밥</option>
+            <option value="">떡볶이</option>
+            <option value="">순대</option>
+          </optgroup>
+
+          <optgroup label="한식">
+            <option value="">된장찌개</option>
+            <option value="">김치찌개</option>
+            <option value="">순두부찌개</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>선택양식 태그</legend>
+        <!-- 여러줄을 입력하는 텍스트 양식  -->
+        <label for="memo">메모</label>
+        <!-- 가로 40, 세로 5로 지정 -->
+        <textarea name="" id="memo" cols="40" rows="5"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

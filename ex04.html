@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>목록 태그 만들기</title>
+  </head>
+  <body>
+    <h1>순서 목록 작성하기</h1>
+    <h2>학과 이름</h2>
+
+    <!-- 순서 목록 -->
+    <ol type="I" start="3" reversed>
+      <!-- type속성 : 번호 모양, start속성 : 시작 번호, reversed : 역순으로 표시 -->
+      <!-- css에서 list-style-type이용해서 번호 모양을 변경 -->
+
+      <li>스마트 소프트웨어 공학과</li>
+      <li>ITC</li>
+      <li>경영학과</li>
+      <li>패션디자인학과</li>
+    </ol>
+
+    <!-- 순서가 없는목록 -->
+    <h1>순서가 없는 목록</h1>
+    <h2>과목명</h2>
+    <ul type="square">
+      <!-- type의 종류 : disc (기본값, 검정색 원), square : 사각형, circle : 흰색 원 -->
+      <li>HTML & CSS</li>
+      <li>데이터 분석</li>
+      <li>SQL</li>
+    </ul>
+
+    <!-- 순서 목록과 순서가 없는 목록 섞어서 쓰기 -->
+    <h1>과일과 채소 목록</h1>
+    <ul>
+      <li>
+        <strong>과일의 종류</strong>
+        <ol type="a">
+          <li>사과</li>
+          <li>배</li>
+          <li>바나나</li>
+        </ol>
+      </li>
+      <li>
+        <strong>채소의 종류</strong>
+        <ol start="4">
+          <li>토마투</li>
+          <li>오이</li>
+          <li>당근</li>
+        </ol>
+      </li>
+    </ul>
+    <hr />
+
+    <!-- 92페이지 13번 -->
+    <ul type="square">
+      <li>
+        따뜻한 음료
+        <ol reversed>
+          <li>커피</li>
+          <li>녹차</li>
+          <li>둥글레차</li>
+        </ol>
+      </li>
+      <li>
+        차가운 음료
+        <ol start="5">
+          <li>커피</li>
+          <li>스무디</li>
+          <!-- <li value="5">스무디</li> -->
+          <li>식혜</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h1>설명 목록</h1>
+    <dl>
+      <dt>선물용 가격</dt>
+      <dd>사과 1kg은 2만원</dd>
+      <dd>사과 2kg은 4만원</dd>
+    </dl>
+    <dl>
+      <dt>구매가격</dt>
+      <dd>사과 1kg 1만5천원</dd>
+      <dd>사과 2kg 3만원</dd>
+    </dl>
+  </body>
+</html>
