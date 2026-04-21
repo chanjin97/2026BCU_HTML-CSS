@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: skyblue;
+      }
+      /* 우선순위가 가장 높음 -> !important*/
+      h1 {
+        color: burlywood !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: green">css의 우선순위</h1>
+    <p style="color: red">css의 우선순위는 스타일에 따라 결정된다.</p>
+    <p>important가 가장 우선순위가 높다.</p>
+    <p>인라인 스타일, id스타일, 클래스 스타일, 태그 스타일 순이다.</p>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>글자 속성</title>
+    <style>
+      /* 글자의 서체 변경 */
+      .font_fa {
+        font-family: "맑은 고딕", 돋움체, 굴림체;
+      }
+
+      /* 글자의 크기를 변경 */
+      /* 글자 크기 입력시 키워드 : xx-small, x-small, small, medium, large, x-large, xx-large */
+      /* 글자의 스타일 적용 font-style : italic -> 기울임 */
+      /* 글자 색 color: 색깔명 | rgb | 16진수(#000000) | rgba -> a: 투명도(0~1) */
+      h1 {
+        font-size: 40px; /* 글자 크기 */
+        font-style: italic; /* 글자 스타일 */
+        color: rgb(247, 72, 232);
+        /* 텍스트에 그림자 -> text-shadow: 가로거리 세로거리 번짐정도 색상 */
+        /* 가로거리 양수: 글자의 오른쪽, 음수는 글자의 왼쪽 
+           세로거리 양수: 글자의 아래쪽 음수는 글자의 위쪽
+           번짐정도: 0기본값, 양수는 모든 방향으로 퍼져나가는 형태 음수로 입력하면 모든 방향을 축소되는 형태
+           색상: 16진수, 색상명 등등 */
+        text-shadow: 7px -7px 20px #000;
+      }
+      p {
+        font-size: 20px;
+        /* 글자 굵기 font-weight : 100~900 (400: 보통, 700이상: bold) 키워드: lighter -> normal -> bold -> bolder*/
+        font-weight: 900; /* 글자 굵기 */
+        color: rgba(0, 0, 255, 0.5);
+        /* 정렬 : text-align: left | center | right */
+        text-align: center; /* 정렬 */
+        /* 줄간격 조절 line-height */
+        line-height: 36px;
+        /* 밑줄, 윗줄 -> text-decoration 밑줄: underline, 윗줄: overline, 취소선: line-through*/
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>글자 속성</h1>
+    <p class="font_fa">글자의 서체를 변경할 수 있다.</p>
+    <p>
+      글자의 크기를 변경할 수 있다. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Ratione ducimus dolore ut nam repellat atque eligendi
+      dolores voluptate blanditiis reiciendis. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Fuga sunt facilis consequatur deserunt
+      cupiditate veritatis necessitatibus iure debitis libero nostrum! Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ea modi
+      eaque ex quo mollitia accusantium, in, quisquam obcaecati amet quos.
+      Eligendi, temporibus, fugit, sapiente dicta possimus necessitatibus cumque
+      asperiores ut totam error minima unde ad pariatur. Quos, dicta laborum.
+    </p>
+    <p>글자의 색을 변경할 수 있다.</p>
+    <p>글자의 스타일을 변경할 수 있다.</p>
+  </body>
+</html>
