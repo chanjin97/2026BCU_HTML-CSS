@@ -1,0 +1,15 @@
+.school {
+  list-style-type: square;
+  /* list-style: square; */
+}
+
+.city {
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+  /* list-style: upper-alpha inside; */
+}
+
+ul {
+  list-style-image: url("../image/dot.jpg");
+  /* list-style: image(url("../image/dot.jpg")); */
+}

@@ -1,0 +1,23 @@
+table {
+  /* 테이블에 선넣기 */
+  border: 1px solid black;
+  /* 표와 테두리를 한줄로 푯히 */
+  border-collapse: collapse;
+  /* 캡션을 아래쪽으로 위치 */
+  caption-side: bottom;
+}
+
+.text_left {
+  text-align-last: left;
+}
+
+td {
+  /* 셀에 선넣기 */
+  border: 1px solid black;
+  /* text-align: center; */
+  padding: 10px;
+}
+
+.bgc_y {
+  background-color: yellow;
+}

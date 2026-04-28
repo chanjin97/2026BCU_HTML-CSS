@@ -1,0 +1,28 @@
+/* 대소문자 변환 */
+/* 첫글자 대문자 변환 */
+.trans1 {
+  text-transform: capitalize;
+}
+
+/* 모두 대문자로 변환 */
+.trans2 {
+  text-transform: uppercase;
+}
+
+/* 모두 소문자로 변환 */
+.trans3 {
+  text-transform: lowercase;
+}
+
+/* 자간 조절 */
+.spacing1 {
+  letter-spacing: 0.2em;
+}
+
+.spacing2 {
+  letter-spacing: 0.5em;
+}
+
+.spacing3 {
+  word-spacing: 2em;
+}
