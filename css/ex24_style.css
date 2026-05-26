@@ -1,0 +1,17 @@
+/* 박스의 너비와 높이 조절 */
+.box1 {
+  /* 고정 */
+  border: solid 20px #000;
+  background-color: red;
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.box2 {
+  /* 가변 */
+  border: solid 1px #000;
+  width: 70%;
+  height: 100px;
+}

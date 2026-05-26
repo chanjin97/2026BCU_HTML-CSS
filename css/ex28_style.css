@@ -1,0 +1,27 @@
+/* 전체선택자( *{} ), 아이디 선택자( #{} ), 클래스 선택자( .클래스명{} ), 태그 선택자( 태그명{} )  */
+/* 자손 선택자, 후손 선택자 */
+/* 후손 선택자 nav ul */
+/* 자손 선택자 nav > ul */
+
+nav > ul {
+  /* 글머리 기호 삭제 */
+  list-style: none;
+}
+
+nav ul li {
+  /* display: block; -> 블록레벨 요소로 표시 */
+  /* display: inline; -> 인라인레벨 요소 표시 */
+  /* display: inline-block -> 인라인레벨처럼 나란히 배치 블록레벨처럼 너비와 높이를 지정 */
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #222;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

@@ -1,0 +1,30 @@
+img {
+  /* 이미지를 왼쪽에 배치 */
+  float: left;
+  /* 오른쪽 여백을 40px지정 */
+  margin-right: 40px;
+}
+
+#box1 {
+  background-color: yellow;
+  float: left;
+}
+
+#box2 {
+  background-color: blue;
+  float: left;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* float의 속성해제 */
+.clear {
+  /* both: float:left, float: right 모두를 해제 */
+  /* float: left 해제할때는 clear: left; 해제 */
+  /* float: right 를 해제할때는 clear: right; 해제 */
+  clear: both;
+  padding: 20px;
+}
