@@ -1,0 +1,19 @@
+.container {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 500px;
+  /* 테두리 */
+  border: 1px solid #ccc;
+  /* 컨텐츠와 테두리 사이의 여백 조정 */
+  padding: 10px 5px;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+p {
+  font-size: 15px;
+  /* 줄 간격 */
+  line-height: 25px;
+}

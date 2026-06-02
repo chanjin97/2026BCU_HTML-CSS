@@ -1,0 +1,13 @@
+div.container {
+  overflow: hidden;
+}
+
+/* div태그있는 클래스item */
+div.item {
+  border: 1px solid black;
+  /* 테두리와 메뉴1 사이의 공백 */
+  padding: 10px;
+  /* 메뉴1과 메뉴2 사이의 공백 */
+  margin: 0 3px; /* 위0, 오른쪽3, 아래쪽0, 왼쪽3 */
+  float: left;
+}

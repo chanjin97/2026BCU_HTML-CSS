@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex43</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: skyblue;
+      }
+      #container {
+        /* 색상 및 크기 지정 */
+        background-color: pink;
+        width: 500px;
+        height: 250px;
+
+        /* 위치 설정 */
+        /* 1번 */
+        position: absolute;
+        /* 2번 */
+        left: 50%;
+        top: 50%;
+        /* 3번 */
+        margin-left: -250px; /* 너비의 절반의 값을 음수로 입력 */
+        margin-top: -125px; /* 높이의 절반의 값을 음수로 입력 */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>중앙 배치</h1>
+    </div>
+  </body>
+</html>

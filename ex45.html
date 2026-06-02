@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex45</title>
+    <style>
+      h1,
+      p {
+        width: 300px;
+        background-color: skyblue;
+      }
+      .ellipsis {
+        /* 넘는 부분은 숨겨짐 */
+        overflow: hidden;
+        text-overflow: ellipsis; /* 글자가 300px를 넘으면 ... 처리 */
+        white-space: nowrap; /* 텍스트의 줄바꿈 하지 말고 한줄에 표시 */
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="ellipsis">제목이 긴 경우, 너비가 300px이 넘으면 글자를 생략</h1>
+    <p class="ellipsis">
+      제목이 긴 경우, 너비가 300px이 넘으면 글자를 생략한다.
+    </p>
+  </body>
+</html>

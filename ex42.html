@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex42</title>
+    <style>
+      /* 부모 */
+      #container {
+        width: 500px;
+        height: 300px;
+        /* 상대 좌표 */
+        position: relative;
+        overflow: hidden;
+        border: 3px solid black;
+      }
+      /* 자손의 position속성에 absolute를 적용하면 부모의 position속성에 relative를 적용 */
+      /* 자손 */
+      .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /* 절대 좌표 */
+        position: absolute;
+      }
+      #violet {
+        background-color: violet;
+        left: 20px;
+        top: 20px;
+      }
+      #yellow_green {
+        background-color: yellowgreen;
+        right: 20px;
+        top: 20px;
+      }
+      #skyblue {
+        background-color: skyblue;
+        left: 20px;
+        bottom: 20px;
+      }
+      #pink {
+        background-color: pink;
+        right: 20px;
+        bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>요소 배치하기</h1>
+    <div id="container">
+      <div id="violet" class="circle"></div>
+      <div id="yellow_green" class="circle"></div>
+      <div id="skyblue" class="circle"></div>
+      <div id="pink" class="circle"></div>
+    </div>
+    <h1>요소 배치하기</h1>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex41</title>
+    <style>
+      body {
+        /* 전체 너비 */
+        width: 500px;
+        margin: 10px auto;
+      }
+
+      #top {
+        background-color: skyblue;
+      }
+
+      #middle {
+        overflow: hidden;
+      }
+
+      #left {
+        background-color: violet;
+        /* 전체 너비500px 에서 150px 할당 */
+        width: 150px;
+        float: left;
+      }
+
+      #right {
+        background-color: aqua;
+        /* 전체 너비500px 에서 350px 할당 */
+        width: 350px;
+        float: right;
+      }
+
+      #bottom {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      One Ture 레이아웃 형태는 국내 모든 포털 사이의 메인 페이지 레이아웃
+      형태이다.
+    </div>
+    <div id="middle">
+      <div id="left">
+        One Ture 레이아웃 형태는 국내 모든 포털 사이의 메인 페이지 레이아웃
+        형태이다.
+      </div>
+      <div id="right">
+        One Ture 레이아웃 형태는 국내 모든 포털 사이의 메인 페이지 레이아웃
+        형태이다.
+      </div>
+    </div>
+    <div id="bottom">
+      One Ture 레이아웃 형태는 국내 모든 포털 사이의 메인 페이지 레이아웃
+      형태이다.
+    </div>
+  </body>
+</html>
