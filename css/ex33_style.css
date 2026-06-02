@@ -1,0 +1,27 @@
+li {
+  list-style: none;
+  float: left;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+/* 형제중에 첫째 */
+
+li:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+/* 형제중에 마지막 */
+li:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+/* 짝수 번째 */
+li:nth-child(2n) {
+  background-color: brown;
+}
+
+/* 홀수 번째 */
+li:nth-child(2n + 1) {
+  background-color: skyblue;
+}

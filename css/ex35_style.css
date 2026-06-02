@@ -1,0 +1,21 @@
+body {
+  /* background-image: url(../image/tr-1.png); */
+  /* background-image: url(../image/mic.jpg), url(../image/tr-1.png); */
+  background-image: url(../image/mic.jpg);
+
+  /* 배경 이미지 반복 해제 : no-repeat */
+  background-repeat: no-repeat;
+  /* 가로로만 반복 : repeat-x */
+  /* 세로로만 반복 : repeat-y */
+  /* 배경 이미지 사이즈 조정 */ /* 가로 세로 */
+  /* background-size: 100% 500px; */
+  background-size: 100%;
+
+  background-attachment: fixed;
+  /* scroll : 스크롤바를 움직이면 그림도 같이 움직임 */
+  /* fixed : 스크롤바를 움직여도 화면에 그림이 고정 */
+
+  /* 배경 이미지의 위치를 지정 */
+  /* background-position: bottom; */ /* 가로 세로 */
+  background-position: 0px 50%;
+}
