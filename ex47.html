@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex47</title>
+    <style>
+      .container {
+        width: 960px; /* 전체 너비 */
+        margin: 0 auto; /* 가운데 배치 */
+        /* background-color: skyblue;s */
+      }
+      .navi {
+        width: 960px;
+        height: 60px;
+        padding-bottom: 10px; /* 글자와 테두리 아래쪽에 여백 */
+        border-bottom: 2px solid #ccc; /* 아래쪽 테두리 지정 */
+      }
+      .navi ul {
+        list-style-type: none; /* 글머리 기호 삭제 */
+        padding-top: 10px; /* 글자와 테두리 사이의 위쪽 여백 */
+        padding-bottom: 5px; /* 글자와 테두리 사이의 아래쪽 여백 */
+      }
+      .navi ul li {
+        float: left;
+        width: 150px;
+        pad: 10px;
+      }
+      /* 상태 전택자 */
+      /* :link -> 방문하지 않은 링크에 스타일 적용 */
+      /* :visited -> 방문한 링크에 스타일 적용 */
+      /* :hover -> 마우스 커서를 올려놓았을때 */
+      /* :active -> 마우스로 클릭했을때 */
+      /* :focus -> 웹 요소에 초점이 맞추어졌을때 */
+      /* :enabled -> 사용 가능한 input 태그 선택 */
+      /* :disabled -> 사용 불가능한 input 태그 선택 */
+      .navi a:link,
+      .navi a:visited {
+        /* 방문한 링크와 방문하지 않은 링크 */
+        font-size: 14px;
+        color: #000; /* 하이퍼링크 글자를 파란색에서  -> 검정색 */
+        padding: 10px;
+        text-decoration: none; /* 하이퍼 링크 밑줄 삭제 */
+        text-align: center;
+      }
+      /* 마우스를 올렸을때, 마우스 포인터의 초점이 맞았을때 */
+      .navi a:hover,
+      .navi a:focus {
+        background-color: skyblue; /* 배경색 */
+        color: chocolate; /* 글자색 */
+        border-radius: 10px;
+      }
+      .navi a:active {
+        background-color: hotpink;
+      }
+      /* input 태그가 사용가능할때는 하얀색 */
+      input:enabled {
+        background-color: white;
+      }
+      /* input 태그가 사용 불가능할때는 회색 */
+      input:disabled {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navi">
+        <ul>
+          <li><a href="#">이용안내</a></li>
+          <li><a href="#">객실소개</a></li>
+          <li><a href="#">예약방법 및 요금</a></li>
+          <li><a href="#">예약하기</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h2>사용 가능</h2>
+    <input type="text" />
+    <h2>사용 불가능</h2>
+    <input type="text" disabled="disabled" />
+  </body>
+</html>
